@@ -76,6 +76,6 @@ clean:
 fclean: clean
 	${RM} ${NAME} ${BONUS_NAME}
 
-re: all fclean
+re: fclean all
 
 .PHONY = all bonus clean fclean re
